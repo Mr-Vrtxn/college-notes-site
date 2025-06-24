@@ -6,8 +6,7 @@ import Notices from "./components/Notices";
 import Login from "./components/Login";
 
 const USERS = [
-  { username: "rahul", password: "1234" },
-  { username: "ayushi", password: "abcd" },
+  { username: "Vrtxn", password: "12345" },
 ];
 
 function App() {
