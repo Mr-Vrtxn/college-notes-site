@@ -52,13 +52,13 @@ function DailyNotes({ sortOrder: initialSortOrder = "desc" }) {
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold text-indigo-700">📅 Daily Notes</h2>
         <select
-          className="border px-2 py-1 rounded text-sm bg-white"
-          value={sortOrder}
-          onChange={(e) => setSortOrder(e.target.value)}
-        >
-          <option value="desc">📉 Newest First</option>
-          <option value="asc">📈 Oldest First</option>
-        </select>
+  className="border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-black dark:text-white px-2 py-1 rounded text-sm"
+  value={sortOrder}
+  onChange={(e) => setSortOrder(e.target.value)}
+>
+  <option value="desc">📉 Newest First</option>
+  <option value="asc">📈 Oldest First</option>
+</select>
       </div>
       {folders.map((folder) => (
         <div key={folder.id} className="mb-4">
