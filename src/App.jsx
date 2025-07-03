@@ -97,10 +97,14 @@ function App() {
         href="https://www.instagram.com/mr_vrtxn/"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-4 right-4 bg-pink-600 hover:bg-pink-700 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg"
+        className="fixed bottom-4 right-4 w-12 h-12 rounded-full overflow-hidden shadow-lg ring-2 ring-pink-500 hover:ring-pink-700 transition      duration-300"
         title="Instagram"
       >
-        📷
+      <img
+        src="/vrtxn.jpg"  // place this image in your /public folder
+        alt="Instagram Profile"
+        className="object-cover w-full h-full"
+      />
       </a>
     </div>
   );
