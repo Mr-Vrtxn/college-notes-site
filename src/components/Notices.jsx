@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 const API_KEY = "AIzaSyDfKfLsU9sTuS4ftcRh1Rxk_j4K860vbFs";
-const NOTICES_FOLDER_ID = "1NRlSAWkHRG5NXs8eA-48Aq3f1gN9xoMb"; // Replace with your actual folder ID
+const NOTICES_FOLDER_ID = "14BlhgZC6S7wQVl-GfGh3ldjAIi2F3OQQ"; // Replace with your actual folder ID
 
 function Notices() {
   const [folders, setFolders] = useState([]);
